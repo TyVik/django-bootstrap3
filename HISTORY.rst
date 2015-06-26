@@ -4,6 +4,27 @@ History
 -------
 
 
+6.1.0 (2015-06-25)
+++++++++++++++++++
+
+* Upgrade to Bootstrap 3.3.5
+* Properly quote help text (@joshkel)
+
+
+6.0.0 (2015-04-21)
+++++++++++++++++++
+
+* No more media="screen" in CSS tags, complying to Bootstraps examples
+
+
+5.4.0 (2015-04-21)
+++++++++++++++++++
+
+* No more forcing btn-primary when another button class is specified (@takuchanno2)
+* Added value option to buttons (@TyVik)
+* Switched CDN to //maxcdn.bootstrapcdn.com/bootstrap/3.3.4/ (@djangoic)
+
+
 5.3.1 (2015-04-08)
 ++++++++++++++++++
 
