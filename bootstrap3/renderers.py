@@ -161,7 +161,7 @@ class FormRenderer(BaseRenderer):
     def get_fields_errors(self):
         form_errors = []
         for field in self.form:
-            if field.is_hidden and field.errors:
+            if not field.is_hidden and field.errors:
                 form_errors += field.errors
         return form_errors
 
